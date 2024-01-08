@@ -1,0 +1,270 @@
+.Section1{
+    width: 100%;
+    height: 1080px;
+    
+    background: linear-gradient( rgba(172,198,249,1) 0%, rgba(255,241,235,1) 100%);
+
+    position: relative;
+}
+
+
+/*Css cho Header*/
+
+.Header{
+    z-index: 99;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 100px 0 100px;
+    box-sizing: border-box;
+
+    position: fixed;
+    top: 25px;
+    
+    mix-blend-mode: difference;
+
+    transition: 0.7s ease-in-out;
+}
+
+.HiddenHeader{
+    z-index: 99;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 100px 0 100px;
+    box-sizing: border-box;
+
+    position: fixed;
+    top: -100px;
+    
+    /* mix-blend-mode: difference; */
+
+    transition: 0.7s ease-in-out;
+}
+
+.Header-Item{
+    font-family: SVN-Graelos;
+    font-size: 36.29px;
+    color: #ffffff;
+}
+
+.Header-Display-Left{
+    display: flex;
+}
+
+.Header-Display-Left .Header-Item{
+    display: flex;
+    margin-right: 57px;
+}
+
+.Header-Display-Right{
+    display: flex;
+}
+
+.Header-Display-Right .Header-Item{
+    display: flex;
+    margin-left: 57px;
+}
+
+.Header-Item a{
+    text-decoration: none;
+    color: #ffffff
+}
+
+
+
+/*Css cho Logo*/
+.Logo{
+    cursor: pointer;
+
+    font-family: SVN-Graelos;
+    font-size: 63.16px;
+    color: #ffffff;
+
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    z-index: 99;
+
+    mix-blend-mode: difference;  
+
+    transition: 0.5s ease-in-out;
+}
+
+.SmallLogo{
+    cursor: pointer;
+
+    font-family: SVN-Graelos;
+    font-size: 63.16px;
+    color: #ffffff;
+
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    z-index: 1;
+
+    mix-blend-mode: difference;  
+
+    transition: 0.5s ease-in-out;
+}
+
+.BigLogo{
+    cursor: pointer;
+
+    font-family: SVN-Graelos;
+    font-size: 875.17px;
+    color: #2C4A96;
+
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    transition: 0.5s ease-in-out;
+
+    mix-blend-mode: normal;
+}
+
+.StartLogo{
+    cursor: pointer;
+
+    font-family: SVN-Graelos;
+    font-size: 875.17px;
+    color: #2C4A96;
+
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    animation: LogoTopToBottom 0.6s ease-in-out;
+
+    z-index: 1;
+}
+
+@keyframes LogoTopToBottom{
+    from{
+        top: -100%
+    }
+    to{
+        top: 15%;
+    }
+}
+
+.Logo a{
+    text-decoration: none;
+    color: #ffffff
+}
+
+
+
+
+/*Css cho Hinh anh*/
+.Header-IMG{
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+    height: auto;
+
+    z-index: 3;
+
+    animation: ImgBottomToTop 0.7s ease-in-out;
+}
+
+.Header-IMG img{
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes ImgBottomToTop{
+    from{
+        top: 100%;
+    }
+    to{
+        top: 0;
+    }
+}
+
+
+
+/*Css cho Slogan*/
+
+.Header-Slogan{
+    background: linear-gradient(90deg, #C4D8F5 0.17%, #C1D9F5 16.02%, #ADE2F2 33.92%, #E5D0F1 60.11%, #F3D7EA 83.91%, #F1D5E2 99.86%);
+
+    font-family: Mj-Caster;
+    font-size: 118.38px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    position: absolute;
+    bottom: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    z-index: 4;
+
+    animation: SloganBottomToTop 0.8s ease-in-out;
+}
+
+.NormalHeader-Slogan{
+    background: linear-gradient(90deg, #C4D8F5 0.17%, #C1D9F5 16.02%, #ADE2F2 33.92%, #E5D0F1 60.11%, #F3D7EA 83.91%, #F1D5E2 99.86%);
+
+    font-family: Mj-Caster;
+    font-size: 118.38px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    position: absolute;
+    bottom: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    z-index: 4;
+
+    transition: 0.5s ease-in-out;
+}
+
+.LowHeader-Slogan{
+    background: linear-gradient(90deg, #C4D8F5 0.17%, #C1D9F5 16.02%, #ADE2F2 33.92%, #E5D0F1 60.11%, #F3D7EA 83.91%, #F1D5E2 99.86%);
+
+    font-family: Mj-Caster;
+    font-size: 118.38px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    z-index: 4;
+
+    transition: 0.5s ease-in-out;
+}
+
+
+@keyframes SloganBottomToTop{
+    from{
+        bottom: -100%;
+    }
+    to{
+        bottom: 130px;
+    }
+}

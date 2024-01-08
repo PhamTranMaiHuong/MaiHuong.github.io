@@ -1,0 +1,60 @@
+.Section3{
+    margin-top: 60px;
+
+    height: 887px;
+
+    position: relative;
+}
+
+.Sec3-Banner-IMG{
+    height: 100%;
+    width: 100%;
+}
+
+.Sec3-Banner-IMG img{
+    height: 100%;
+    width: 100%;
+}
+
+.Sec3-Text{
+    font-family: SVN-Graelos;
+    font-size: 80px;
+    color: #ffffff;
+
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.Sec3-Button{
+    cursor: pointer;
+
+    width: 368px;
+    height: 80px;
+    background: #ffffff;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 800;
+    color: #000000;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.5s ease-in-out;
+}
+
+.Sec3-Button:hover{
+    width: 332px;
+    height: 72px;
+
+    background: linear-gradient(90deg, #C4D8F5 0.17%, #C1D9F5 16.02%, #ADE2F2 33.92%, #E5D0F1 60.11%, #F3D7EA 83.91%, #F1D5E2 99.86%);
+}

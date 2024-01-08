@@ -1,0 +1,102 @@
+
+/*Css import font*/
+
+@font-face {
+    font-family: SVN-Graelos;
+    src: url(../font/SVN-Graelos/SVN-Gratelos\ Display.otf);
+}
+
+@font-face{
+    font-family: Mj-Caster;
+    src: url(../font/MjCaster/Caster.ttf);
+}
+
+@font-face{
+    font-family: RaleWay-Italic;
+    src: url(../font/Raleway/static/Raleway-Italic.ttf);
+}
+
+/*Css Regular Mont*/
+@font-face {
+    font-family: Montserrat;
+    src: url(../font/Montserrat/static/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+/*Css Medium Mont*/
+@font-face {
+    font-family: Montserrat;
+    src: url(../font/Montserrat/static/Montserrat-Medium.ttf);
+    font-weight: 600;
+}
+/*Css Bold Mont*/
+@font-face {
+    font-family: Montserrat;
+    src: url(../font/Montserrat/static/Montserrat-Bold.ttf);
+    font-weight: 800;
+}
+/*Css Bold Italic*/
+@font-face {
+    font-family: Montserrat;
+    src: url(../font/Montserrat/static/Montserrat-Italic.ttf);
+    font-style: italic;
+}
+
+
+/*Css cho phần body chung*/
+body{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+    overflow-x: hidden;
+}
+
+
+.Tesing{
+    background-color: tomato;
+    width: 100%;
+    height: 2000px;
+
+    z-index: 5;
+
+    position: relative;
+}
+
+/*Css cho Thanh cuộn*/
+*::-webkit-scrollbar {
+    display: none;
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+    height: 56px;
+    border-radius: 8px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+    background-color: #888;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+
+/*Css cho hộp chứa các section còn lại*/
+.BigBox{
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient( rgb(230, 238, 255) 0%, rgb(255, 249, 246) 100%);
+    width: 100%;
+
+    z-index: 5;
+
+    position: relative;
+
+    padding: 74px 0 0 0 ;
+
+    margin-bottom: 731px;
+}

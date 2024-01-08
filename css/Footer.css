@@ -1,0 +1,118 @@
+.Footer{
+    height: 731px;
+    width: 100%;
+
+    position: fixed;
+    bottom: 0;
+
+    background-color: rgb(0, 0, 0, 0.85);
+    backdrop-filter: blur(80px);
+
+    z-index: -1;
+}
+
+.FooterOnTop{
+    height: 731px;
+    width: 100%;
+
+    position: fixed;
+    bottom: 0;
+
+    background-color: rgb(0, 0, 0, 0.85);
+    backdrop-filter: blur(80px);
+
+    z-index: 3;
+}
+
+.LostFooter{
+    height: 731px;
+    width: 100%;
+
+    position: fixed;
+    bottom: 0;
+
+    background-color: rgb(0, 0, 0, 0.85);
+    backdrop-filter: blur(80px);
+
+    z-index: 3;
+
+    display: none;
+}
+
+.Footer-List{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 200px 100px 0 100px;
+    box-sizing: border-box;
+}
+
+.Footer-list{
+    font-family: Montserrat;
+    font-weight: 200;
+    font-size: 20px;
+    color: #ffffff;
+
+    margin-bottom: 32px;
+}
+
+.Footer-LogoAnd-ContactUs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 0 100px 0 100px;
+
+    box-sizing: border-box;
+
+    position: absolute;
+    bottom: 0px;
+}
+
+.Btn-Footer{
+    width: 591px;
+    height: 80px;
+    background-color: #303030;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+
+    margin-bottom: 20px;
+}
+
+.Text-Footer-Contact{
+    width: 599px;
+    height: 48px;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.Logo-Footer-Contact{
+    font-family: SVN-Graelos;
+    font-size: 210.82px;
+    color: #ffffff;
+}
+
+
+.FooterContactUs{
+    margin-top: 150px;
+
+    position: relative;
+
+    height: 731px;
+    width: 100%;
+
+
+    background-color: rgba(0, 0, 0);
+}

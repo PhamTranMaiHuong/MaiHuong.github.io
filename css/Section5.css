@@ -1,0 +1,404 @@
+.Section5{
+    position: relative;
+}
+
+.Sec5-Title{
+    font-family: SVN-Graelos;
+    font-size: 50px;
+    color: #000000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 150px 0 150px 0;
+}
+
+
+/*Css Row 1*/
+
+.Sec5-Row1{
+    padding: 0 100px 0 100px;
+
+    display: flex;
+}
+
+.Sec5-Row1-Box1{
+    height: 826px;
+    width: 860px;
+
+    position: relative;
+}
+
+.Sec5-Row1-Box1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.Sec5-Row1-Box1-Btn{
+    width: 368px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 800;
+    color: #000000;
+
+    background-color: #ffffff;
+
+    position: absolute;
+    left: 47px;
+    bottom: 48px;
+
+    transition: 0.7s ease-in-out;
+}
+
+.Sec5-Row1-Box1-Btn:hover{
+    width: 332px;
+    height: 72px;
+
+    background: linear-gradient(90deg, #C4D8F5 0.17%, #C1D9F5 16.02%, #ADE2F2 33.92%, #E5D0F1 60.11%, #F3D7EA 83.91%, #F1D5E2 99.86%);
+}
+
+.Sec5-Row1-Box1-Title{
+    font-family: SVN-Graelos;
+    font-size: 69.03px;
+    color: #ffffff;
+
+    position: absolute;
+    left: 47px;
+    bottom: 130px;
+}
+
+
+.Sec5-Row1-Box2{
+    height: 826px;
+    width: 860px;
+
+    position: relative;
+}
+
+
+
+/*Css cho phần Slider Row 1*/
+.Section5 .swiper {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+  }
+
+  .Section5 .swiper-slide {
+    font-size: 18px;
+    /* background: #fff; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Section5 .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.swiper5-button-next{
+    height: 87px;
+    width: 87px;
+    border-radius: 87px;
+
+    position: absolute;
+    top: 49%;
+    left: 14%;
+    transform: translateY(-50%);
+
+    z-index: 10;
+
+    background-color: rgb(255, 255, 255);
+
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper5-button-next img{
+    width: 15.5px;
+    height: 31px;
+
+    transform: rotateY(180deg);
+}
+
+.swiper5-button-prev{
+    height: 87px;
+    width: 87px;
+    border-radius: 87px;
+
+    position: absolute;
+    top: 49%;
+    right: 14%;
+    transform: translateY(-50%);
+
+    z-index: 10;
+
+    background-color: rgb(255, 255, 255);
+
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.25);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper5-button-pre img{
+    width: 15.5px;
+    height: 31px;
+
+}
+
+.img-Swiper-5{
+    width: 530px;
+    height: 600px;
+
+    margin-bottom: 12px;
+}
+.img-Swiper-5 img{
+    width: 100%;
+    height: 100%;
+}
+
+.name-Swiper-5{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 800;
+    color: #000000;
+
+    display: flex;
+    justify-content: start;
+
+    width: 530px;
+
+    margin-bottom: 8px;
+}
+
+.Title-Swiper-5{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+
+    display: flex;
+    justify-content: start;
+
+    width: 530px;
+}
+
+
+/*Css cho Row 2*/
+.Sec5-Row2{
+    padding: 0 100px 0 100px;
+
+    display: flex;
+}
+
+.Sec5-Row2-Box1{
+    height: 826px;
+    width: 860px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sec5-Row2-Box1-img{
+    width: 530px;
+    height: 524px;
+
+    margin-bottom: 8px;
+}
+
+.Sec5-Row2-Box1-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.Sec5-Row2-Box1-text{
+    font-family: SVN-Graelos;
+    font-size: 69.03px;
+    color: #000000;
+
+    cursor: pointer;
+
+    transition: 0.2s ease-in-out;
+}
+
+.Sec5-Row2-Box1-hover{
+    width: 125px;
+    height: 3px;
+    background-color: #000000;
+
+    transition: 0.3s ease-in-out;
+
+    opacity: 0;
+}
+
+.Sec5-Row2-Box1-text:hover .Sec5-Row2-Box1-hover{
+    opacity: 1;
+}
+
+.Sec5-Row2-Box2{
+    height: 826px;
+    width: 860px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.Sec5-Row2-Box2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.Title-Sec5-Row2-Box2{
+    font-family: SVN-Graelos;
+    font-size: 69.03px;
+    color: #000000;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Btn-Sec5-Row2-Box2{
+    width: 368px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 800;
+    color: #000000;
+
+    background-color: #ffffff;
+
+    position: absolute;
+    left: 50%;
+    bottom: 109px;
+    transform: translateX(-50%);
+
+    transition: 0.3s ease-in-out;
+}
+
+.Btn-Sec5-Row2-Box2:hover{
+    width: 332px;
+    height: 72px;
+
+    background: linear-gradient(90deg, #C4D8F5 0.17%, #C1D9F5 16.02%, #ADE2F2 33.92%, #E5D0F1 60.11%, #F3D7EA 83.91%, #F1D5E2 99.86%);
+}
+
+
+/*Css cho Row 3*/
+.Sec5-Row3{
+    padding: 0 100px 0 100px;
+
+    display: flex;
+}
+
+.Sec5-Row3-Box1{
+    height: 826px;
+    width: 860px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.Sec5-Row3-Box1 video{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    object-fit: cover;
+
+}
+
+.Sec5-Row3-Box1-Btn{
+    width: 368px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 800;
+    color: #000000;
+
+    background-color: #ffffff;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 84px;
+
+    transition: 0.7s ease-in-out;
+}
+
+.Sec5-Row3-Box1-Btn:hover{
+    width: 332px;
+    height: 72px;
+
+    background: linear-gradient(90deg, #C4D8F5 0.17%, #C1D9F5 16.02%, #ADE2F2 33.92%, #E5D0F1 60.11%, #F3D7EA 83.91%, #F1D5E2 99.86%);
+}
+
+
+.Sec5-Row3-Box2{
+    height: 826px;
+    width: 860px;
+
+    padding-left: 48px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.Sec5-Row3-Box2-Text{
+    font-family: Montserrat;
+    font-size: 62.99px;
+    font-style: italic;
+    color: #000000;
+
+    width: 650px;
+
+    position: absolute;
+    left: 48px;
+    top: 50%;
+    transform: translateY(-50%);
+}

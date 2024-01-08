@@ -1,0 +1,139 @@
+.Section2{
+    position: relative;
+}
+
+.Sec2-TitleAndText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1626px;
+
+    padding: 0 100px 0 100px;
+}
+
+.Sec2-Title{
+    font-family: SVN-Graelos;
+    font-size: 50px;
+    color: #000000;
+}
+
+.Sec2-Text{
+    font-family: RaleWay-Italic;
+    font-size: 20px;
+    color: #000000;
+
+    width: 542px;
+}
+
+
+.Sec2-Slider{
+  margin-top: 43px;
+  position: relative;
+}
+
+
+/*Css cho phần Swiper*/
+
+
+.Section2 .swiper {
+
+  width: 100%;
+  height: 100%;
+  padding-left: 100px;
+  
+}
+
+.Section2 .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+/* @media (max-width: 760px) {
+  .Section2 .swiper-button-next {
+    right: 20px;
+    transform: rotate(90deg);
+  }
+
+  .Section2 .swiper-button-prev {
+    left: 20px;
+    transform: rotate(90deg);
+  }
+} */
+
+.swiper2-btn-next{
+  height: 87px;
+  width: 87px;
+  border-radius: 87px;
+
+  z-index: 2;
+
+  position: absolute;
+  top: 40%;
+  left: 3%;
+
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.25);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transform: rotateY(180deg);
+}
+
+.swiper2-btn-pre{
+  height: 87px;
+  width: 87px;
+  border-radius: 87px;
+
+  z-index: 2;
+
+  position: absolute;
+  top: 40%;
+  right: 12%;
+
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.25);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper2-btn-next img{
+  width: 15.5px;
+  height: 31px;
+}
+
+.swiper2-btn-pre img{
+  width: 15.5px;
+  height: 31px;
+}
+
+
+/*Css cho sản phẩm của best of*/
+
+.BestOf-Img{
+  height: 600px;
+  width: 530px;
+  margin-bottom: 8px;
+}
+
+.BestOf-name{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 800;
+    color: #000000;
+
+    margin-bottom: 8px;
+}
+
+.BestOf-price{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+}
